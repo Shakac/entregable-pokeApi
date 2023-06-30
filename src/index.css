@@ -1,0 +1,21 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  /* ---RESET ----*/
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1,h2,h3,h4,p,ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
