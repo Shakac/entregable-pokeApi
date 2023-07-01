@@ -3,13 +3,15 @@ import useFetch from "../../hooks/useFetch"
 import { useNavigate } from "react-router-dom"
 import './styles/pokecard.css'
 
-function PokeCard({ url }) {
+const PokeCard = ({ url })  => {
 
+    console.log(url)
     const [pokemon, getPokemonInf] = useFetch(url)
 
     useEffect(() => {
         getPokemonInf()
     }, [])
+
     const navigate = useNavigate()
 
     const handleNavigate = () => {

@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux'
-import trainerNameSlice from '../store/slices/trainerName.slice'
 import { Navigate, Outlet } from 'react-router-dom'
 
 const ProtectedRoutes = () => {
