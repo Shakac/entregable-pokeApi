@@ -3,6 +3,8 @@ import useFetch from "../hooks/useFetch";
 import { useEffect } from "react";
 
 const PokedexName = () => {
+/*estaba borrado la parte de abajo del export por alguna razón */
+
     // para acceder al name del path en el enrutador
     const { name } = useParams()
 
@@ -34,3 +36,5 @@ const PokedexName = () => {
         </div>
     )
 };
+
+export default PokedexName

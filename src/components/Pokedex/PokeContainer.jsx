@@ -1,10 +1,13 @@
 import React from 'react'
 import PokeCard from './PokeCard'
+import "./styles/pokecard.css"
 
 const PokeContainer = ({ pokemons }) => {
 
+    console.log(pokemons)
+
     return (
-        <div>
+        <div className='pokecard__map'>
             {
                 pokemons?.map(pokemon => {
                     <PokeCard
