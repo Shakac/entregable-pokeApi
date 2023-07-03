@@ -9,12 +9,12 @@ const PokeContainer = ({ pokemons }) => {
     return (
         <div className='pokecard__map'>
             {
-                pokemons?.map(pokemon => {
+                pokemons?.map(pokemon => (
                     <PokeCard
                         key={pokemon.url}
                         url={pokemon.url}
                     />
-                })
+                ))
             }
         </div>
     )
